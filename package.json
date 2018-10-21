@@ -1,0 +1,17 @@
+{
+  "name": "react-express-starter",
+  "version": "1.0.0",
+  "description": "Starter kit for a React Express app",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Megan Callenbach",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.18.4"
+  }
+}
